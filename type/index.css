@@ -1,12 +1,12 @@
 .xingkong{
-  background: url("./public/css/images/星空.jpg");
+  background: url("/love-forever-day.git.io/css/images/星空.jpg");
   background-size: 100% 100%;
   height: 500px;
 }
 .continer {
   width: 400px;
   height: 400px;
-  background-image: url("taiji.png");
+  background-image: url("/love-forever-day.git.io/css/images/taiji.png");
   background-size: 100% 100%;
   margin: 0;
   left: 50%;
