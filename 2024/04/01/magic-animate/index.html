@@ -16,21 +16,22 @@
   <meta name="author" content="Wdq">
   <meta name="keywords" content="">
   
-    <meta name="description" content="欢迎来到 Hexo! 这是你的第一篇文章. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. 快速启动安装hexo1$ cnpm install -g h">
+    <meta name="description" content="MagicAnimate:使用扩散模型的时间一致的人类图像动画–字节跳动准备工作1.下载StableDiffusion V1.5和mse微调VAE的预训练基础模型。 2.下载MagicAnimate checkpoints. 3.根据要求目录将这三个模型引入  pretrained_models MagicAnimate appearance_encoder diffusion_pytorch_m">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://love-forever-day.github.io/love-forever-day.git.io/2024/03/27/hello-world/index.html">
+<meta property="og:title" content="MagicAnimate">
+<meta property="og:url" content="https://love-forever-day.github.io/love-forever-day.git.io/2024/04/01/magic-animate/index.html">
 <meta property="og:site_name" content="博客">
-<meta property="og:description" content="欢迎来到 Hexo! 这是你的第一篇文章. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. 快速启动安装hexo1$ cnpm install -g h">
+<meta property="og:description" content="MagicAnimate:使用扩散模型的时间一致的人类图像动画–字节跳动准备工作1.下载StableDiffusion V1.5和mse微调VAE的预训练基础模型。 2.下载MagicAnimate checkpoints. 3.根据要求目录将这三个模型引入  pretrained_models MagicAnimate appearance_encoder diffusion_pytorch_m">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-03-27T12:06:53.805Z">
-<meta property="article:modified_time" content="2024-04-01T15:00:46.883Z">
+<meta property="article:published_time" content="2024-04-01T15:10:21.525Z">
+<meta property="article:modified_time" content="2024-04-02T03:13:04.610Z">
 <meta property="article:author" content="Wdq">
+<meta property="article:tag" content="MagicAnimate">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Hello World - 博客</title>
+  <title>MagicAnimate - 博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -184,7 +185,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Hello World"></span>
+            <span id="subtitle" data-typed-text="MagicAnimate"></span>
           
         </div>
 
@@ -195,8 +196,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-03-27 20:06" pubdate>
-          2024年3月27日 晚上
+        <time datetime="2024-04-01 23:10" pubdate>
+          2024年4月1日 晚上
         </time>
       </span>
     
@@ -207,7 +208,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          68 vortoj
+          357 vortoj
         
       </span>
     
@@ -218,7 +219,7 @@
         
         
         
-          1 minutoj
+          3 minutoj
         
       </span>
     
@@ -255,28 +256,87 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Hello World</h1>
+            <h1 id="seo-header">MagicAnimate</h1>
             
             
               <div class="markdown-body">
                 
-                <p>欢迎来到 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! 这是你的第一篇文章. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="快速启动"><a href="#快速启动" class="headerlink" title="快速启动"></a>快速启动</h2><h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ cnpm install -g hexo<br></code></pre></td></tr></table></figure>
-
-<h3 id="初始化hexo"><a href="#初始化hexo" class="headerlink" title="初始化hexo"></a>初始化hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo init<br></code></pre></td></tr></table></figure>
-
-<h3 id="创作一个帖子"><a href="#创作一个帖子" class="headerlink" title="创作一个帖子"></a>创作一个帖子</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="运行服务"><a href="#运行服务" class="headerlink" title="运行服务"></a>运行服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br>$ hexo s<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br>$ hexo g<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="部署到远程网站"><a href="#部署到远程网站" class="headerlink" title="部署到远程网站"></a>部署到远程网站</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br>$ hexo d<br></code></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+                <h1 id="MagicAnimate-使用扩散模型的时间一致的人类图像动画–字节跳动"><a href="#MagicAnimate-使用扩散模型的时间一致的人类图像动画–字节跳动" class="headerlink" title="MagicAnimate:使用扩散模型的时间一致的人类图像动画–字节跳动"></a>MagicAnimate:使用扩散模型的时间一致的人类图像动画–字节跳动</h1><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>1.下载StableDiffusion V1.5和mse微调VAE的预训练基础模型。</p>
+<p>2.下载MagicAnimate checkpoints.</p>
+<p>3.根据要求目录将这三个模型引入</p>
+<ul>
+<li>pretrained_models<ul>
+<li>MagicAnimate<ul>
+<li>appearance_encoder<ul>
+<li>diffusion_pytorch_model.safetensors</li>
+<li>config.json</li>
+</ul>
+</li>
+<li>densepose_controlnet<ul>
+<li>diffusion_pytorch_model.safetensors</li>
+<li>config.json</li>
+</ul>
+</li>
+<li>temporal_attention<ul>
+<li>temporal_attention.ckpt</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>sd-vae-ft-mse<ul>
+<li>config.json</li>
+<li>diffusion_pytorch_model.safetensors</li>
+</ul>
+</li>
+<li>stable-diffusion-v1-5<ul>
+<li>scheduler<ul>
+<li>scheduler_config.json</li>
+</ul>
+</li>
+<li>text_encoder<ul>
+<li>config.json</li>
+<li>pytorch_model.bin</li>
+</ul>
+</li>
+<li>tokenizer (all)</li>
+<li>unet<ul>
+<li>diffusion_pytorch_model.bin</li>
+<li>config.json</li>
+</ul>
+</li>
+<li>v1-5-pruned-emaonly.safetensors<br>|—-…</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>4.下载ffmpg python</p>
+<p>##通过conda进行环境配置</p>
+<ol>
+<li>检查当前拥有环境<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ conda <span class="hljs-built_in">env</span> list<br></code></pre></td></tr></table></figure></li>
+<li>建立一个新的环境<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ conda create -n animate python==3.80<br></code></pre></td></tr></table></figure></li>
+<li>激活新的环境<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ conda acitvite animate <br></code></pre></td></tr></table></figure></li>
+<li>进入animate文件夹<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$  (animate) C:\Users\...&gt;<span class="hljs-built_in">cd</span> /d E:\ai\magic-animate<br></code></pre></td></tr></table></figure></li>
+<li>下载环境需要的包<br>之前看教程的时候发现，自带的requirement.txt不适合window环境<br>在<a target="_blank" rel="noopener" href="https://github.com/sdbds/magic-animate-for-windows">magic-animate windows版</a><br>中下载 requirement-window.txt<br>然后pip install -r requirements-windows.txt<br>6.如果顺利的话接下来就是启动，但是我不顺利<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">接连出现了好几次  No matching distribution found <span class="hljs-keyword">for</span> ....<br></code></pre></td></tr></table></figure>
+解决方法：<br>通过更改python的源可以下载这些包<br>我使用的是清华源<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">&gt;pip install -i https://pypi.mirrors.ustc.edu.cn/simple --trusted-host pypi.mirrors.ustc.edu.cn aiofiles==23.2.1<br></code></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs 其他源">https://mirrors.aliyun.com/pypi/simple/  阿里源<br>https://pypi.mirrors.ustc.edu.cn/simple/  中国科技大学<br>https://pypi.douban.com/simple/  豆瓣源<br>https://pypi.mirrors.ustc.edu.cn/simple/ 中国科学技术大学<br>https://pypi.python.org/simple 官方源<br><br></code></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs python">$ python -m demo.gradio_animate<br></code></pre></td></tr></table></figure>
+<p>最终结果：因为自己的gpu只有2G,导致模型运行不起来，运行失败</p>
+<h2 id="总结缺少的东西"><a href="#总结缺少的东西" class="headerlink" title="总结缺少的东西"></a>总结缺少的东西</h2><ul>
+<li>av</li>
+<li>accelerate</li>
+<li>torchvision</li>
+<li>diffusers.pipelin_utils<br>通过将from diffusers.pipeline_utils import DiffusionPipeline<br>修改至from diffusers.pipelines.pipeline_utils import DiffusionPipeline</li>
+<li>diffusers 0.25.1</li>
+<li>einops</li>
+<li>transofrmers</li>
+<li>torch</li>
+<li>omegaconf</li>
+<li>gradio</li>
+<li>imageio</li>
+<li>aiofiles</li>
+</ul>
 
                 
               </div>
@@ -285,6 +345,34 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/love-forever-day.git.io/categories/AI/" class="category-chain-item">AI</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/love-forever-day.git.io/tags/MagicAnimate/" class="print-no-link">#MagicAnimate</a>
+      
+    </div>
   
 </div>
 
@@ -294,8 +382,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hello World</div>
-      <div>https://love-forever-day.github.io/love-forever-day.git.io/2024/03/27/hello-world/</div>
+      <div>MagicAnimate</div>
+      <div>https://love-forever-day.github.io/love-forever-day.git.io/2024/04/01/magic-animate/</div>
     </div>
     <div class="license-meta">
       
@@ -307,7 +395,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Postigita</div>
-          <div>2024年3月27日</div>
+          <div>2024年4月1日</div>
         </div>
       
       
@@ -339,15 +427,15 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/love-forever-day.git.io/2024/04/01/magic-animate/" title="MagicAnimate">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">MagicAnimate</span>
-                        <span class="visible-mobile">Antaŭa afiŝo</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/love-forever-day.git.io/2024/03/27/hello-world/" title="Hello World">
+                        <span class="hidden-mobile">Hello World</span>
+                        <span class="visible-mobile">Sekva afiŝo</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
